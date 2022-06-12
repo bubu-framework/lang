@@ -1,0 +1,23 @@
+{
+    "name": "bubu-framework/lang",
+    "description": "Bubu-framework's Langs",
+    "type": "library",
+    "license": "MIT",
+    "homepage": "https://github.com/bubu-framework/lang",
+    "authors": [
+        {
+            "name": "QuentinBubu",
+            "email": "QuentinBubu.dev@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Bubu\\Lang\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Bubu\\Lang\\Tests\\" : "tests/"
+        }
+    }
+}
