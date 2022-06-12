@@ -11,7 +11,7 @@ class Lang
     public const FR   = 'fr';
     public const EN   = 'en';
 
-    private const FILE_LOC = '../lang/';
+    private const FILE_LOC = __DIR__ . '/../lang/';
 
     public static string $lang = self::AUTO;
 
